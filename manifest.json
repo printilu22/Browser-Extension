@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "My Web Extension",
+    "version": "1.0",
+    "description": "A simple web extension example.",
+    "icons": {
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    },
+    "browser_action": {
+      "default_icon": "icons/icon-48.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab"
+    ]
+  }
+  
